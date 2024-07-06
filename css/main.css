@@ -834,6 +834,12 @@ header .links li:hover {
     justify-content: center;
 }
 
+.carousel__prev:hover,
+.carousel__next:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
 
 .carousel__prev {
     right: 5rem;
